@@ -1,0 +1,57 @@
+<form>
+    Name:<br/>
+    <input type="number">
+    <br/>
+</form>
+
+<!--Start of the test-->
+
+<form>
+    <p>Multiply. 8&times;9=&quest; </p>
+    <input type="radio" name="tvhours" value="none">
+    56<br/>
+    <input type="radio" name="tvhours" value="low">
+    48<br/>
+    <input type="radio" name="tvhours" value="med">
+    72<br/>
+    <input type="radio" name="tvhours" value="high">
+    96
+</form>
+
+<form>
+    <p>Divide. 20&divide;5=&quest;</p>
+    <input type="radio" name="tvhours" value="none">
+    3<br/>
+    <input type="radio" name="tvhours" value="low">
+    5<br/>
+    <input type="radio" name="tvhours" value="med">
+    2<br/>
+    <input type="radio" name="tvhours" value="high">
+   4
+</form>
+
+<form>
+    <p>Fill in the blank space with the correct answer. &frac12; _ &frac34;</p>
+    <input type="radio" name="tvhours" value="none">
+   &lt; <br/>
+    <input type="radio" name="tvhours" value="low">
+   &gt; <br/>
+    <input type="radio" name="tvhours" value="med">
+   =<br/>
+  
+</form>
+
+
+
+<p>Amy had 7 pencils. She gave 2 of them to a classmate. Her classmate only gave one of them back. How many pencils does she have now?</p>
+<form>
+    Answer below:<br/>
+    <textarea></textarea>
+</form>
+
+ </ol><!--End of chapters-->
+
+<form>
+ 
+  <input type="submit">
+  <br/>
