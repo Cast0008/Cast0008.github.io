@@ -1,0 +1,51 @@
+<style>
+     .team-member{
+      float: left;
+      width: 23%;
+      margin: 1%;
+      position: relative;
+    }
+
+    .team-member img {
+      width: 100%;
+    }
+
+    .name {
+      position: relative;
+      bottom: 5px;
+      left: 5px;
+      background: lightgray;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+ 
+  <h4> <a href="#">Main Page</a></h4>
+    <h1>Team Members</h1>
+
+  <div class="team-member">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Venus_Flytrap_showing_trigger_hairs.jpg/800px-Venus_Flytrap_showing_trigger_hairs.jpg"  style="width:150; height:150">
+    <div class="name">Venus</div>
+    <p>The fierce host of the team. She loves sunbathing and her favorite snacks are flies.</p>
+  </div>
+
+  <div class="team-member">
+   <img src="https://as1.ftcdn.net/jpg/00/65/11/80/1000_F_65118027_7hYshdPKHSDLQo0ZTqjjNRDojhGXyJiv.jpg"style="width:150; height:150">
+    <div class="name">Jerry</div>
+    <p>The hilarious co-host of the team. He never misses a chance to crack a joke. His positivity is contagious.</p> 
+  </div>
+
+  <div class="team-member">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT05iIVi1KWtEWKVpc0m3UZRbUzgaQnORLRuQ&s" style="width:150; height:150">
+    <div class="name">Henry</div>
+    <p>The team's somewhat reliable editor. He works a little slow, but he always gets the job done.</p> 
+  </div>
+
+  <div class="team-member">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2VK_usGaP9IPODu7SXKP09v6i89S1a3ipmA&s" style="width:150; height:150>
+    <div class="name">Emily</div>
+    <p>The team's manager. She handles the scheduling. It's thanks to her this team gets anything done.</p> 
+  </div>
+
+</body>
