@@ -1,0 +1,70 @@
+<style>
+  /* Grid for Info Section */
+  section.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: indigo;
+    padding: 10px;
+    color: white;
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Flexbox for Puzzle Images */
+  section.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: indigo;
+    padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .flex-item {
+    background-color: white;
+    padding: 5px;
+    width: calc(33.33% - 20px); /* Makes 3 per row with spacing */
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .flex-item img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+
+<!-- Info Section -->
+<section class="grid-container">
+  <div class="grid-item">Name: Abby Castro</div>
+  <div class="grid-item">Date: 4/21/25</div>
+  <div class="grid-item">Puzzle: Fish</div>
+  <div class="grid-item"><img src="Screenshot 2025-04-22 024707.png" alt="Screenshot"></div>
+</section>
+
+<!-- Puzzle Section -->
+<section class="container">
+  <div class="flex-item"><img src="puzzle3_D.jpg" alt="D"></div>
+  <div class="flex-item"><img src="puzzle3_A.jpg" alt="A"></div>
+  <div class="flex-item"><img src="puzzle3_G.jpg" alt="G"></div>
+  <div class="flex-item"><img src="puzzle3_J.jpg" alt="J"></div>
+  <div class="flex-item"><img src="puzzle3_B.jpg" alt="B"></div>
+  <div class="flex-item"><img src="puzzle3_C.jpg" alt="C"></div>
+  <div class="flex-item"><img src="puzzle3_F.jpg" alt="F"></div>
+  <div class="flex-item"><img src="puzzle3_I.jpg" alt="I"></div>
+  <div class="flex-item"><img src="puzzle3_E.jpg" alt="E"></div>
+</section>
