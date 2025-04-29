@@ -30,7 +30,7 @@ td:hover {
     cursor: pointer;
 }
 
-/* Optional: Different header colors per scorecard using classes */
+
 .golf th {
     background-color: #4CAF50;
     color: white;
